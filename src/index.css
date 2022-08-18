@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
 }
 
@@ -33,7 +33,7 @@ h4 {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
-  /* max-width: 900px; */
+  /* max-width: 900px; 
   margin-left: 250px;
   margin-right: 250px;
 
@@ -44,8 +44,8 @@ h4 {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
-  /* margin-top: 50px; */
-  /* margin-bottom: 20px; */
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .form--button {
@@ -59,4 +59,37 @@ h4 {
   height: 40px;
   margin-top: 15px;
 }
+
+.randMeme {
+  margin-top: 35px;
+  max-width: 600px;
+  margin-left: 230px;
+  margin-right: 230px;
+  max-width: 823px;
+  max-height: 700px;
+} */
+
+/* main {
+  /* display: flex; 
+  flex-direction: column;
+  align-items: center;
+} */
 /*--------------------------------------------------------------------------*/
+
+button {
+  margin: 10px;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 3.5px;
+  padding: 0;
+  border-width: 0.5px;
+  border-color: #595959;
+  /* border: 2px; */
+}
+
+main > div {
+  flex-direction: row;
+  align-items: center;
+}
+

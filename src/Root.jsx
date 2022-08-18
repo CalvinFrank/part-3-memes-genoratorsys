@@ -15,7 +15,7 @@ function Root() {
   // })
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <Main/>
     </div>
   )
